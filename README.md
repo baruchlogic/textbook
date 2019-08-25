@@ -21,7 +21,7 @@ This is the textbook for the baruchlogic course in symbolic logic. The text is d
 ## [1. What is Natural Deduction?](https://github.com/baruchlogic/textbook/blob/master/unit-3/chapter-1.md)
 ## [2. Rules for Natural Deduction: Rules of Implication](https://github.com/baruchlogic/textbook/blob/master/unit-3/chapter-2.md)
 ## [3. Rules for Natural Deduction: Rules of Replacement](https://github.com/baruchlogic/textbook/blob/master/unit-3/chapter-3.md)
-## [4. Advanced Proofs Techniques](https://github.com/baruchlogic/textbook/blob/master/unit-3/chapter-4.md)
+## [4. Advanced Proof Techniques](https://github.com/baruchlogic/textbook/blob/master/unit-3/chapter-4.md)
 
 If you would like to contribute to this text, or if you notice any errors, feel free to submit an issue, or create a Pull Request. If you do not have a Github account, you may contact the administrators at baruchlogic@gmail.com instead.
 
