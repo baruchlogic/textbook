@@ -53,7 +53,7 @@ p & q
 
 The proof above uses both Simplification and Conjunction to reach the conclusion. First, Simplification is applied to line 1, and we extract the left-hand conjunct. Then, since we now have both p and r asserted independently in the proof (lines 2 and 3), we can combine them into p & r using Conjunction (line 4).
 
-## Modus Ponens
+## 3. Modus Ponens
 
 p → q
 <br> p
@@ -171,16 +171,16 @@ q & ((q V r) → ~s)
 | (5) q	V r	| Addition (3)
 | (6) ~s	| Modus Ponens (4, 5)
 | (7) ~p	| Modus Tollens (2, 6)
-| (8) ~s & ~	| Conjunction (6, 7)
+| (8) ~s & ~p	| Conjunction (6, 7)
 
-Let’s walk through this proof. Lines 1 and 2 are simply the premises. Then, we use Simplification on the conjunction in line 1 to derive each of its conjuncts in lines 3 and 4. Now, notice that 4 is a conditional, and the antecedent is q V r. We don’t have that statement yet, but we *do* have q, and because of the rule of Addition, you can create a disjunction out of any true statement. So, we have q, and we use Addition to “add” r to make q V r. (**HINT: Be careful! The rule of addition does NOT work for *conjunctions*, only *disjunctions*!**) Then, we have derived the antecedent for the conditional in like 4, so we can use Modus Ponens to infer the consequent (line 6). So how do we get to ~p. Well, line 2 is also a conditional, and remember that Modus* Tollens* tells us that whenever we have a conditional, and we have the *negation* of the *consequent*, we can infer the negation of the antecedent. So, we have Modus Tollens on lines 2 and 6 to derive ~p (line 7). Finally, our last two lines of the proof are now ~s and ~p, and according to Conjunction, we can create a conjunctive statement out of any two individual lines. So, we just combine lines 6 and 7 to derive the ultimate conclusion of the argument, line 8, ~s & ~p. And we’re done!
+Let’s walk through this proof. Lines 1 and 2 are simply the premises. Then, we use Simplification on the conjunction in line 1 to derive each of its conjuncts in lines 3 and 4. Now, notice that 4 is a conditional, and the antecedent is q V r. We don’t have that statement yet, but we *do* have q, and because of the rule of Addition, you can create a disjunction out of any true statement. So, we have q, and we use Addition to “add” r to make q V r. (**HINT: Be careful! The rule of addition does NOT work for *conjunctions*, only *disjunctions*!**) Then, we have derived the antecedent for the conditional in like 4, so we can use Modus Ponens to infer the consequent (line 6). So how do we get to ~p? Well, line 2 is also a conditional, and remember that Modus* Tollens* tells us that whenever we have a conditional, and we have the *negation* of the *consequent*, we can infer the negation of the antecedent. So, we have Modus Tollens on lines 2 and 6 to derive ~p (line 7). Finally, our last two lines of the proof are now ~s and ~p, and according to Conjunction, we can create a conjunctive statement out of any two individual lines. So, we just combine lines 6 and 7 to derive the ultimate conclusion of the argument, line 8, ~s & ~p. And we’re done!
 
 ### Strategies
 
 1. If you find a conjuction, always consider using Simplification to separate out the individual conjuncts. It might be helpful, and it can never really hurt.
 2. If you see a conditional, try to think about how you can derive the antecedent of the conditional. Usually, you’ll want to use Modus Ponens or Modus Tollens for a conditional, so consider the other premises and see if you can’t convert them into either the antecedent of the conditional or the negation of the consequent.
-3. If you have a statement or a propositional variable that seems to “comes out of nowhere” and it’s part of a disjunction, then try to prove one of the disjuncts, and then use Addition to add the new information to is.
-4. Conjunction is perhaps not used as often as some other rules, but always keep in mind that if you need to create a conjunction (say, you want to do something with the statement (p & q) -> r, then see if it’s possible to establish each of the conjuncts (p and q) independently, so that you can them combine them with Conjunction.
+3. If you have a statement or a propositional variable that seems to “come out of nowhere” and it’s part of a disjunction, then try to prove one of the disjuncts, and then use Addition to add the new information to it.
+4. Conjunction is perhaps not used as often as some other rules, but always keep in mind that sometimes you may need to create a conjunction - say, you want to do something with the statement (p & q) -> r, then see if it’s possible to establish each of the conjuncts p, and q, independently, so that you can them combine them with Conjunction.
 
 ## 6. Hypothetical Syllogism
 
