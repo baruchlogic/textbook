@@ -176,7 +176,7 @@ Now, when we are building our proof, we will refer to this rule each time it is 
 | (4) q					| Simplification (3)
 | (5) r & s					| Simplification (3)
 | (6) r					| Simplification (5)
-| (7) s					| Simplification (3)
+| (7) s					| Simplification (5)
 
 So, a proof has two columns - on the left-hand side, you write the statements that make up the proof, and on the right-hand side you write down the inference rule that you used to derive that sentence, and which previous sentence(s) in the proof you are referring to when you use the rule. (If the statement is actually one of the *premises* of the argument, you can simply write “Premise.”) This allows the reader to follow the chain of reasoning and make sure that each move is a valid one. For instance, the proof above shows that line 5 (r & s) was derived from line 3 (q & (r & s)) using the Simplification rule.
 
