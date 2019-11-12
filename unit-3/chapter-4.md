@@ -146,7 +146,7 @@ Let’s look at one more example:
 
 | Proposition | Justification |
 | - | - |
-| (1) (p & q) → r		| Premise
+| (1) (p -> q) → r		| Premise
 | (2) ~p V s  	| Premise
 | (3) s → q  	| Premise
 | (4) &nbsp; &nbsp; &nbsp; &nbsp; p  	| Assumption

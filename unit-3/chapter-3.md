@@ -225,7 +225,7 @@ p & (q V r)
 
 p V (q & r)
 <br> ________
-(p V q) & (p V r)
+<br>(p V q) & (p V r)
 
 Recall that one of our previous rules, Associativity, allowed to manipulate formulas with two conjunctions (or disjunctions) “in a row.” However, the rule does *not* apply to a mixture of a conjunction and a disjunction, as in p & (q V r). In these cases, we again do something sort of like distribution in mathematics. In the left-hand side case, we have a disjunction inside a conjunction, so we distribute the conjunction across the arguments of the disjunction, and then combine the two results with a disjunction. On the right-hand side, we do the same thing, but with conjunction and disjunction signs switched.
 
@@ -246,7 +246,7 @@ p
 | (2) q		| Premise
 | (3) q V r		| Addition (2)
 | (4) p & (q V r)		| Conjunction (1, 3)
-| (5) (p & q) V (p & r)		| DeMorgan's Law (4)
+| (5) (p & q) V (p & r)		| Distribution (4)
 
 ## 14. Transposition
 
@@ -305,8 +305,9 @@ This rule can be a bit tricky to remember, and it might look a little strange at
 | (2) q		| Premise
 | (3) ~p → (q → (r V p))		| Premise
 | (4) ~p & q		| Conjunction (1, 2)
-| (5) r V p		| Modus Ponens (4, 5)
-| (6) r		| Disjunctive Syllogism (1, 5)
+| (5) (~p & q) -> (r V p)		| Exportation (3)
+| (6) r V p		| Modus Ponens (4, 5)
+| (7) r		| Disjunctive Syllogism (1, 6)
 
 ## 16. Tautology
 

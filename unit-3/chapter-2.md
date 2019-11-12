@@ -201,18 +201,21 @@ You can thinking of hypothetical syllogism as “chaining together” two condit
 In this example, q & r is a common link between the conditional in line 1 and line 2. So we can directly “hop over” q & r and connect p and s with a conditional. To put it in metaphorical terms, line 1 is like a train that takes you from p to q & r; line 2 is like a train that takes you from q & r to s. So, that means that we can be sure that there is a path to take us from p to s, and we can simply leave out the intermediate “stop” of q & r.
 
 ### Example Proof
-p
-<br> (p V q) → (r & s)
+p -> r
+<br> ~r V s
+<br> p
 <br> ________
-<br> r
+<br> s V t
 
 | Proposition | Justification |
 | - | - |
-| (1) p			| Premise
-| (2) (p V q) → (r & s) | Premise
-| (3) p V q   | Addition (1)
-| (4) r & s    | Modus Ponens (2, 3)
-| (5) r     | Simplification (4)
+| (1) p -> r			| Premise
+| (2) ~r V s | Premise
+| (3) p | Premise
+| (4) r -> s   | Material Equivalence (2)
+| (5) p -> s    | Hypothetical Syllogism (1, 4)
+| (6) s     | Modus Ponens (3, 5)
+| (7) s V t    | Addition (6)
 
 ## 7. Constructive Dilemma
 
