@@ -122,9 +122,9 @@ Notice, also, that this rule can be applied in “either direction” (i.e., it 
 ### Example Proof
 
 p → (p & (q V r))
-p
-________
-(q V r) & p
+<br> p
+<br> ________
+<br> (q V r) & p
 
 | Proposition | Justification |
 | - | - |
