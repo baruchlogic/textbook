@@ -348,7 +348,7 @@ One way to understand the equivalence is to construct a proof using rules we’v
 
 So, if we think of a conditional in this way, we can see why p → q is equivalent to ~p V q.
 
-Here’s another way to think about it. Recall that a conditional is true whenever its antecedent is false. So, let’s take p → q. Well, p could either be true or false. If p is false, then the conditional is true, so we’re all good. But if p is *true*, then for the conditional to be true, q has to be false. So, *either* p is false, *or* p is true and q is also true. That is, either ~p or p & q, which reduces to ~p V q, as shown here:
+Here’s another way to think about it. Recall that a conditional is true whenever its antecedent is false. So, let’s take p → q. Well, p could either be true or false. If p is false, then the conditional is true, so we’re all good. But if p is *true*, then for the conditional to be true, q has to be true. So, *either* p is false, *or* p is true and q is also true. That is, either ~p or p & q, which reduces to ~p V q, as shown here:
 
 | Proposition | Justification |
 | - | - |
