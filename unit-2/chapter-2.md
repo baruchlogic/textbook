@@ -197,12 +197,12 @@ Now, how do we complete the last column? The key insight is that you can basical
 
 In other words, at each column you are always computing a basic truth function whose arguments either have primitive truth values, or whose truth values have already been computed in a previous column. Therefore, to apply the next rule, you simply follow the pattern described in the basic truth table for that connective, using the appropriate previous columns in the table.
 
-Since every truth function has at most two arguments, you will only ever have to look at TWO other columns when computing the values for a given column. No matter now complex the final sentence is, the truth table can always be built up one operation at a time, so it only requires repeated application of the basic truth table rules.
+Since every truth function has at most two arguments, you will only ever have to look at TWO other columns when computing the values for a given column. No matter how complex the final sentence is, the truth table can always be built up one operation at a time, so it only requires repeated application of the basic truth table rules.
 
 Let’s look at one more example:
 
 | P | Q | P or Q | Q if P | (P or Q) and (Q if P)
-| - | - | ------- | --------------------
+| - | - | ------- | --|------------------
 | T | T | T       | T | T
 | T | F | T       | F | F
 | F | T | T       | T | T

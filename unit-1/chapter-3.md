@@ -78,7 +78,7 @@ The obvious conclusion is that they should stop at the next restaurant, since it
 
 ### (8) Ad Hominem
 
-“Ad hominem” means, roughly, “against the person.” An ad hominem fallacy is an argument that doesn’t try to win by offering good reasons or evidence, but rather directly attacks the personal *character* of the other person For example:
+“Ad hominem” means, roughly, “against the person.” An ad hominem fallacy is an argument that doesn’t try to win by offering good reasons or evidence, but rather directly attacks the personal *character* of the other person. For example:
 
 (27) I didn’t cheat on the exam! You’re stupid and ugly!
 
@@ -134,7 +134,7 @@ Hopefully, the failure of reasoning in this argument should be clear to you. Whe
 
 ### (14) Appeal to Majority
 
-An argument involves appeal to majority when it tries to argue that something is true on the basis of the fact that most people believe that’s it’s true. For instance, let’s go back to a time when people believed that the Earth was the center of the universe, and the Sun and stars revolved around the Earth. Then this guy Galileo gets up and says that the Earth actually revolves around the Sun, and someone responds by saying:
+An argument involves appeal to majority when it tries to argue that something is true on the basis of the fact that most people believe is true. For instance, let’s go back to a time when people believed that the Earth was the center of the universe, and the Sun and stars revolved around the Earth. Then this guy Galileo gets up and says that the Earth actually revolves around the Sun, and someone responds by saying:
 
 (33) The Sun revolves around the Earth. Come on, everyone knows that!
 
