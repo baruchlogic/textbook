@@ -202,7 +202,7 @@ Study the following proof carefully. It demonstrates a nice interplay between Ad
 
 ### Example Proof
 
-~(p V q) V ~(p & q)
+~(p V q) V (p & q)
 <br> ~p
 <br> ________
 <br> ~q
@@ -395,7 +395,7 @@ Now, let’s look at the right-hand side. This looks very different, but again, 
 <br> ~p
 <br> ~s
 <br> ________
-<br> r
+<br> ~r
 
 | Proposition | Justification |
 | - | - |
