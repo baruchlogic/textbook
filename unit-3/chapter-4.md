@@ -66,8 +66,8 @@ p
 | (5) ~(p V r)		| Modus Ponens (2, 4)
 | (6) ~p & ~r		| DeMorgan's Law (5)
 | (7) ~r		| Simplification (6)
-| (8) ~r & ~~r		| Conjunction (7, 8)
-| (9) ~r		| Indirect Proof (3, 9)
+| (8) ~r & ~~r		| Conjunction (3, 7)
+| (9) ~r		| Indirect Proof (3, 8)
 
 Here, we start with the premises of our proof; then, we make an additional assumption (~~r), which is the negation of the conclusion that we want to reach (~r). Then we apply some more rules until we have derived a contradiction: r & ~r. Since we were able to derive a contradiction, we know that the combination of the premises and the negation of the conclusion is contradictory, and hence the argument is valid.
 
@@ -138,7 +138,7 @@ Let’s look at one more example:
 
 ### Proof
 
-(p & q) → r
+(p -> q) → r
 <br> ~p V s
 <br> s → q
 <br> ________
