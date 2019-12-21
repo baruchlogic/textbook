@@ -15,7 +15,7 @@ Intuitively, this argument is valid. How can we show this using a truth table?
 First, let’s construct a complete truth table for every proposition in the argument, and combine them into one:
 
 | P | Q | R | P and Q | If P, then R
-| - | - | - | --------------------
+| - | - | - | ------- | ------------
 | T | T | T       | T | T
 | T | T | F       | T | F
 | T | F | T       | F | T
@@ -28,7 +28,7 @@ First, let’s construct a complete truth table for every proposition in the arg
 Now, how do we use this table to determine whether the argument is valid? Well, recall that an argument is valid just in case if the premises are true, then the conclusion is true. That means we want to look for any row in the table in which *all the premises are true* (and we can ignore any other rows). You can see the relevant row in bold:
 
 | P | Q | R | P and Q | If P, then R
-| - | - | - | --------------------
+| - | - | - | -------- |-----------
 | **T** | **T** | **T**       | **T** | **T**
 | T | T | F       | T | F
 | T | F | T       | F | T

@@ -122,9 +122,9 @@ Notice, also, that this rule can be applied in “either direction” (i.e., it 
 ### Example Proof
 
 p → (p & (q V r))
-p
-________
-(q V r) & p
+<br> p
+<br> ________
+<br> (q V r) & p
 
 | Proposition | Justification |
 | - | - |
@@ -190,7 +190,7 @@ There is another rule for these types of situations, but remember that Associati
 
 DeMorgan’s Law (or laws) is a very important rule in logic. At first glance, we have a negation surrounding a conjunction (or a disjunction), and then it looks like we “distribute” the negation across the arguments of the conjunction/disjunction. So, p becomes ~p and q becomes ~q. However, the crucial thing to note is we *also* have to change the operator, so a conjunction (&) becomes a disjunction (V), and vice versa.
 
-You can kind of think of this rule is analogous to distributing a negation in arithmetic. For instance, if I have a formula like -(3 + 5), then that’s equivalent to (-3 + -5) = -8. So, in this case, I distribute the negation across the addition. DeMorgan’s Law is kind of like that, but we also have to remember to change the operator.
+You can kind of think of this rule as analogous to distributing a negation in arithmetic. For instance, if I have a formula like -(3 + 5), then that’s equivalent to (-3 + -5) = -8. So, in this case, I distribute the negation across the addition. DeMorgan’s Law is kind of like that, but we also have to remember to change the operator.
 
 If you want an even better mathematical analogy, think of how we manipulate inequalities. Suppose I have an inequality like 3n > n + 1. Now, if I multiply both sides by -1, I also have to “flip,” or reverse the inequality sign. So, we would get: -(3n) < -(n + 1), or: -3n < -n - 1. In this case, we distribute the negation on both sides of the inequality operator, and we reverse the operator itself. This is akin to how with DeMorgan’s Law, we distribute the negation to the arguments and change the operator from V to &, or vice versa.
 
@@ -202,14 +202,14 @@ Study the following proof carefully. It demonstrates a nice interplay between Ad
 
 ### Example Proof
 
-~(p V q) V ~(p & q)
+~(p V q) V (p & q)
 <br> ~p
 <br> ________
 <br> ~q
 
 | Proposition | Justification |
 | - | - |
-| (1) ~(p V q) V ~(p & q)		| Premise
+| (1) ~(p V q) V (p & q)		| Premise
 | (2) ~p		| Premise
 | (3) ~p V ~q		| Addition (2)
 | (4) ~(p & q)		| DeMorgan's Law (3)
@@ -225,9 +225,9 @@ p & (q V r)
 
 p V (q & r)
 <br> ________
-(p V q) & (p V r)
+<br>(p V q) & (p V r)
 
-Recall that one of our previous rules, Associativity, allowed to manipulate formulas with two conjunctions (or disjunctions) “in a row.” However, the rule does *not* apply to a mixture of a conjunction and a disjunction, as in p & (q V r). In these cases, we again do something sort of like distribution in mathematics. In the left-hand side case, we have a disjunction inside a conjunction, so we distribute the conjunction across the arguments of the disjunction, and then combine the two results with a disjunction. On the right-hand side, we do the same thing, but with conjunction and disjunction signs switched.
+Recall that one of our previous rules, Associativity, allowed us to manipulate formulas with two conjunctions (or disjunctions) “in a row.” However, the rule does *not* apply to a mixture of a conjunction and a disjunction, as in p & (q V r). In these cases, we again do something sort of like distribution in mathematics. In the left-hand side case, we have a disjunction inside a conjunction, so we distribute the conjunction across the arguments of the disjunction, and then combine the two results with a disjunction. On the right-hand side, we do the same thing, but with conjunction and disjunction signs switched.
 
 Think of how we distribute multiplication across an addition statement, e.g.: 3 x (4 + 5). This is equivalent to 3 x (9) = 27. But, we could also distribute the multiplication sign first, as in: 3 x (4 + 5) = (3 x 4) + (3 x 5) = 12 + 15 = 27. The same pattern applies when we distribute a conjunction across a disjunction, or a disjunction across a conjunction.
 
@@ -246,7 +246,7 @@ p
 | (2) q		| Premise
 | (3) q V r		| Addition (2)
 | (4) p & (q V r)		| Conjunction (1, 3)
-| (5) (p & q) V (p & r)		| DeMorgan's Law (4)
+| (5) (p & q) V (p & r)		| Distribution (4)
 
 ## 14. Transposition
 
@@ -279,7 +279,7 @@ Modus Tollens tells us that if we have a conditional, and we also can infer the 
 | (2) p → q		| Premise
 | (3) q → r		| Premise
 | (4) p → r		| Hypothetical Syllogism (2, 3)
-| (5) ~r → ~p		| Transposition
+| (5) ~r → ~p		| Transposition (4)
 | (6) r → s		| Modus Ponens (1, 5)
 | (7) p → s		| Hypothetical Syllogism (4, 6)
 
@@ -289,13 +289,13 @@ Modus Tollens tells us that if we have a conditional, and we also can infer the 
 <br> ________
 <br> p → (q → r)
 
-This rule can be a bit tricky to remember, and it might look a little strange at first. Actually, however, we can try to make it very intuitive. Consider the top line - this asserts that *if* p and q are true, then r will be true. So, if p and q are both true, then r is true. Now, let’s look at the second line. What if we start with just p? If just p is true, then we can’t infer r, because we are told that p and q *together* imply r in line 1. However, we can reason as follows: *if* p is true, *then if* q is true as well, then we know r is true. So, in a way, we break up the conjunction p & q and break it down into pieces - first, *if* we get p, then we are halfway there towards p & q, so *if* we get p, then *if* we also get q, we will get r. Symbolically: p → (q → r).
+This rule can be a bit tricky to remember, and it might look a little strange at first. Actually, however, we can try to make it very intuitive. Consider the top line - this asserts that *if* p and q are true, then r will be true. So, if p and q are both true, then r is true. Now, let’s look at the second line. What if we start with just p? If just p is true, then we can’t infer r, because we are told that p and q *together* imply r in line 1. However, we can reason as follows: *if* p is true, *then if* q is true as well, then we know r is true. So, in a way, we take the conjunction p & q and break it down into pieces - first, *if* we get p, then we are halfway there towards p & q, so *if* we get p, then *if* we also get q, we will get r. Symbolically: p → (q → r).
 
 ### Example Proof
 
 ~p
 <br> q
-<br> ~p → (q → r)
+<br> ~p → (q → (r V p))
 <br> ________
 <br> r
 
@@ -305,8 +305,9 @@ This rule can be a bit tricky to remember, and it might look a little strange at
 | (2) q		| Premise
 | (3) ~p → (q → (r V p))		| Premise
 | (4) ~p & q		| Conjunction (1, 2)
-| (5) r V p		| Modus Ponens (4, 5)
-| (6) r		| Disjunctive Syllogism (1, 5)
+| (5) (~p & q) -> (r V p)		| Exportation (3)
+| (6) r V p		| Modus Ponens (4, 5)
+| (7) r		| Disjunctive Syllogism (1, 6)
 
 ## 16. Tautology
 
@@ -347,7 +348,7 @@ One way to understand the equivalence is to construct a proof using rules we’v
 
 So, if we think of a conditional in this way, we can see why p → q is equivalent to ~p V q.
 
-Here’s another way to think about it. Recall that a conditional is true whenever its antecedent is false. So, let’s take p → q. Well, p could either be true or false. If p is false, then the conditional is true, so we’re all good. But if p is *true*, then for the conditional to be true, q has to be false. So, *either* p is false, *or* p is true and q is also true. That is, either ~p or p & q, which reduces to ~p V q, as shown here:
+Here’s another way to think about it. Recall that a conditional is true whenever its antecedent is false. So, let’s take p → q. Well, p could either be true or false. If p is false, then the conditional is true, so we’re all good. But if p is *true*, then for the conditional to be true, q has to be true. So, *either* p is false, *or* p is true and q is also true. That is, either ~p or p & q, which reduces to ~p V q, as shown here:
 
 | Proposition | Justification |
 | - | - |
@@ -382,7 +383,7 @@ p ↔ q
 
 p ↔ q
 <br> ________
-<br> (p & q) & (~p & ~q)
+<br> (p & q) V (~p & ~q)
 
 Looking at the left-hand side, this rule is about taking a biconditional and breaking it up into a conjunction of two conditionals. It essentially formalizes the meaning of the biconditional itself. A biconditional like p ↔ q is equivalent to p → q and q → p. (In fact, using the “arrow” notation for conditionals and biconditionals makes this obvious, since we see the arrow pointing from p to q, and also from q back to p.) So, a biconditional is equivalent to a conjunction of conditionals from each side to the other.
 
@@ -394,7 +395,7 @@ Now, let’s look at the right-hand side. This looks very different, but again, 
 <br> ~p
 <br> ~s
 <br> ________
-<br> r
+<br> ~r
 
 | Proposition | Justification |
 | - | - |

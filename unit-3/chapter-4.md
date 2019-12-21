@@ -8,9 +8,9 @@ For instance, consider a proposition like p V ~p, “Either it’s raining or it
 
 (In fact, you might think that there are some “in-between” states where it’s not clear whether it’s raining or not. As mentioned previously, we ignore these vagaries in our discussion of classical propositional logic, and we assume that every proposition is either true or false.)
 
-We’ve seen already how to use natural deduction inference rules to show whether an argument is valid or not - you have to provide a proof from the premises to the conclusion. But how can we show whether a statement is a tautology? A tautology is not an an argument with premises and conclusion - in a way, we can think of it as  just a conclusion, with no premises. If you can prove that statement/conclusion without using any premises, then clearly that statement must be true no matter what.
+We’ve seen already how to use natural deduction inference rules to show whether an argument is valid or not - you have to provide a proof from the premises to the conclusion. But how can we show whether a statement is a tautology? A tautology is not an argument with premises and conclusion - in a way, we can think of it as  just a conclusion, with no premises. If you can prove that statement/conclusion without using any premises, then clearly that statement must be true no matter what.
 
-Since a tautology is a statement that is true in every possible circumstances, then the negation of a tautology would be a statement that is true in *no* possible circumstances (all rows in the truth table would flip from “T” to “F”). In other words, negating a logical truth yields a situation that is *impossible*. But what is an “impossible” situation? Well, any possible combination of truth values for the atomic variables of a proposition represents a possible situation. Every variable, or state of affairs, is assigned either True or False. What would be *impossible* would be if a certain proposition, say p, were assigned *both* True and False! Consider the sentence “It’s raining and it’s not raining.” That does not describe a possible state of affairs - it has to be one or the other, and not both. Whenever we have a situation where we have asserted a proposition and also its negation, then we have derived a **contradiction**.
+Since a tautology is a statement that is true in every possible circumstance, then the negation of a tautology would be a statement that is true in *no* possible circumstances (all rows in the truth table would flip from “T” to “F”). In other words, negating a logical truth yields a situation that is *impossible*. But what is an “impossible” situation? Well, any possible combination of truth values for the atomic variables of a proposition represents a possible situation. Every variable, or state of affairs, is assigned either True or False. What would be *impossible* is if a certain proposition, say p, were assigned *both* True and False! Consider the sentence “It’s raining and it’s not raining.” That does not describe a possible state of affairs - it has to be one or the other, and not both. Whenever we have a situation where we have asserted a proposition and also its negation, then we have derived a **contradiction**.
 
 If we are able to derive a contradiction in our proof, that is, if we are able to infer on two separate lines both p (or any proposition) and its negation, then we know that we have started with a proposition that entails a contradiction.
 
@@ -30,7 +30,7 @@ Let’s see how this works in practice. Suppose we want to prove that the follow
 | (4) p & ~((p → q) → q)	   	| Double Negation (3)
 | (5) p	   	| Simplification (4)
 | (6) ~((p → q) → q)	   	| Simplification (4)
-| (7) ~(~(p → q) V q)	   	| Material Implication (6)
+| (7) \~(~(p → q) V q)	   	| Material Implication (6)
 | (8) ~~(p → q) & ~q	   	| DeMorgan's Law (7)
 | (9) ~~(p → q)	   	| Simplification (8)
 | (10) p → q	   	| Double Negation (9)
@@ -66,8 +66,8 @@ p
 | (5) ~(p V r)		| Modus Ponens (2, 4)
 | (6) ~p & ~r		| DeMorgan's Law (5)
 | (7) ~r		| Simplification (6)
-| (8) ~r & ~~r		| Conjunction (7, 8)
-| (9) ~r		| Indirect Proof (3, 9)
+| (8) ~r & ~~r		| Conjunction (3, 7)
+| (9) ~r		| Indirect Proof (3, 8)
 
 Here, we start with the premises of our proof; then, we make an additional assumption (~~r), which is the negation of the conclusion that we want to reach (~r). Then we apply some more rules until we have derived a contradiction: r & ~r. Since we were able to derive a contradiction, we know that the combination of the premises and the negation of the conclusion is contradictory, and hence the argument is valid.
 
@@ -138,7 +138,7 @@ Let’s look at one more example:
 
 ### Proof
 
-(p & q) → r
+(p -> q) → r
 <br> ~p V s
 <br> s → q
 <br> ________
@@ -146,7 +146,7 @@ Let’s look at one more example:
 
 | Proposition | Justification |
 | - | - |
-| (1) (p & q) → r		| Premise
+| (1) (p -> q) → r		| Premise
 | (2) ~p V s  	| Premise
 | (3) s → q  	| Premise
 | (4) &nbsp; &nbsp; &nbsp; &nbsp; p  	| Assumption
