@@ -48,7 +48,7 @@ In this example, I try to use Double Negation to cancel out the two negation sym
 
 ## Rules of Replacement
 
-One important thing to note about the rules we have previously covered (Rules 1-8) is that they are only application to *entire formulas*. For instance, the following is O.K.:
+One important thing to note about the rules we have previously covered (Rules 1-8) is that they are only application to *entire formulas*. For instance, the following is *not* O.K.:
 
 | Proposition | Justification |
 | - | - |
