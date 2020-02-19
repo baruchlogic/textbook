@@ -50,7 +50,7 @@ Let’s look at another example:
 | **T** | **T** | **T**       | **T**
 | T | F | F       | T
 | F | T | F       | T
-| T | F | F       | T
+| F | F | F       | T
 
 As you can see, in this example “P and Q” is the only premise, so row 1 is the only row where all the premises are true; now, if we look to the conclusion at these rows, we see that it is true in that row. Therefore, it is clear that whenever the premise(s) are true, the conclusion is true, and hence this argument is valid.
 
