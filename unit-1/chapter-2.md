@@ -28,7 +28,7 @@ Here is our definition of validity:
 
 Logic is more interested in *reasoning* itself than whatever the reasoning is about (e.g., farm animals, in this case). Thus, when evaluating a deductive argument, we will mostly be focusing on whether or not it is *valid*, disregarding whether the premises are true or false. Notice that when judging validity, we consider what follows *if* the premises are true. Therefore, when discussing validity, we may simply *assume* the premises are true, and then ask ourselves – does the conclusion *follow*?
 
-Validity is a key concept in logic because logic studies patterns of reasoning, and sometimes you can employ good reasoning even if you start from false assumptions. For instance, imagine that you’re told some important information about the weather - say, that there’s going to be a thunderstorm arriving tomorrow. You use that information to reason that you the plants in the garden will get wet, and so they don’t need to be watered today. That is a fairly reasonable inference to make from the claim that there is going to be a hurricane tomorrow. But suppose there *isn’t* going to be a hurricane tomorrow - the information you were told was simply false. In that case, you may have arrived at an inaccurate conclusion. However, that doesn’t mean that you weren’t employing *good reasoning*, albeit on the basis of *false premises*.
+Validity is a key concept in logic because logic studies patterns of reasoning, and sometimes you can employ good reasoning even if you start from false assumptions. For instance, imagine that you’re told some important information about the weather - say, that there’s going to be a thunderstorm arriving tomorrow. You use that information to reason that the plants in the garden will get wet, and so they don’t need to be watered today. That is a fairly reasonable inference to make from the claim that there is going to be a hurricane tomorrow. But suppose there *isn’t* going to be a hurricane tomorrow - the information you were told was simply false. In that case, you may have arrived at an inaccurate conclusion. However, that doesn’t mean that you weren’t employing *good reasoning*, albeit on the basis of *false premises*.
 
 Another way to think about validity is in terms of **truth preservation** – when thinking about validity, we don’t care whether the premises are true or false, we just assume that they are true and see if they entail the conclusion. Thus, a valid argument is one in which if the premises are true, we can know definitively that the conclusion is true as well – in other words, a valid argument *preserves truth* – if the premises are all true, then truth will be “transmitted” to the conclusion as well.
 
@@ -42,7 +42,7 @@ Thus, argument (15), although valid, is not sound, because premise (A) is not tr
 
 (A) Triangles have three edges.
 <br> (B) Rectangles have four edges.
-<br> (Z) Therefore, rectangles have more edges that triangles.
+<br> (Z) Therefore, rectangles have more edges than triangles.
 
 Let’s make some observations to solidify these concepts:
 
@@ -103,7 +103,7 @@ This conclusion seems a little too hasty. You shouldn’t infer that everyone in
 (A) Alice’s computer has a virus.
 <br> (B) Bob’s computer has a virus.
 <br> (C) Carol’s computer has a virus.
-<br> (D) Dave’s computer has as virus.
+<br> (D) Dave’s computer has a virus.
 <br> (E) Elaine’s computer has a virus.
 <br> (F) Everyone in the finance division’s computer has a virus.
 <br> (Z) Therefore, everyone in the office’s computer has a virus.
