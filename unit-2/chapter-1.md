@@ -73,6 +73,7 @@ Since we are really concerned with the form of the argument, then, we will do aw
 Pattern 1
 <br> (1) P → Q
 <br> (2) P
+<br> —
 <br> (3) Q
 
 “P → Q” is read as: “If P then Q;” or, equivalently, “P implies Q.” We will symbolize the fact that (3) is intended to be the conclusion by putting it below a solid line.
@@ -83,14 +84,17 @@ First, let’s look at one more easy example of an obviously valid argument form
 
 (6)
 <br> (1) Snow is white and grass is green.
+<br> —
 <br> (2) Therefore, snow is white.
 
 (7)
 <br> (1) Alice is tall and she is wearing a blue hat.
+<br> —
 <br> (2) Therefore, Alice is tall.
 
 (8)
 <br> (1) Bob is at home and he’s watching TV.
+<br> —
 <br> (2) Therefore, Bob is at home.
 
 These arguments are clearly valid. It is difficult to explain informally *why* they are valid, because the inference is so obvious and direct, but if it’s true that both snow is white and grass is green, then obviously each statement must be individually true as well – i.e., snow is white. In general, if you say that two things are true, then they must be true individually as well.
@@ -99,12 +103,14 @@ These arguments are all clearly valid, and they also share a similar form:
 
 Pattern 2
 <br> (1) Such-and-such and so-and-so.
+<br> —
 <br> (2) Therefore, such-and-such.
 
 Once again, we are informally using “such-and-such” and “so-and-so” as *sentential variables*. Let us, then, simply replace them with letters (and get rid of the unnecessary “therefore”):
 
 Pattern 2
 <br> (1) P and Q
+<br> —
 <br> (2) P
 
 We have now identified another valid sentence pattern, or form, where we can fill in the variables with *any sentences whatsoever* (as long as like variables are replaced by like sentences), and end up with a valid argument.
@@ -113,6 +119,7 @@ We can see that the only English word remaining is “and,” so we will again t
 
 Pattern 2
 <br> (1) P & Q
+<br> —
 <br> (2) P
 
 This is another *valid inference rule* expressed in symbolic terms. In this unit, we will learn about a number of such rules, and how they can be used to determine whether an argument is valid or not.
@@ -226,7 +233,7 @@ In these examples, “or” once again combines two parts that are not complete 
 
 So, if you encounter such examples of “and”/“or” that do not combine full sentences, try to reformulate them so that their logical structure is more transparent.
 
-HINT: Be Careful! This strategy does not always work: “Alice and Bill drank a whole bottle of wine,” does not mean the same as “Alice drank a whole bottle of wine and Bill drank a whole bottle of wine” – since they might have drank a single bottle *together*. We won’t expand on this problem here, but it’s something to be aware of.
+**HINT: Be Careful! This strategy does not always work: “Alice and Bill drank a whole bottle of wine,” does not mean the same as “Alice drank a whole bottle of wine and Bill drank a whole bottle of wine” – since they might have drank a single bottle *together*. We won’t expand on this problem here, but it’s something to be aware of.**
 
 ### Pragmatics
 
@@ -392,14 +399,7 @@ What is the main operator in this sentence? As you can see, “or” does not op
 
 Here, the main operator is “if.”
 
-HINT: Another way to find the main operator, if the sentence is properly disambiguated, is to find the first operator that you encounter where there are *no open parentheses*.
-
-Must sentences have 1 (or rarely, 0) main operators? No! Some special sentences can have what appear to be multiple “main” operators. This only happens when the sentences contain multiple occurrences of the same type of operator. This only holds for either disjunction or conjunction. Take sentences 5 and 6:
-
-(5) P & Q & R
-<br> (6) A B C
-
-(5) and (6) are both well-formed and have multiple main operators. The main operator in (5) is conjunction, *both of them*. Similarly, in (6) disjunction is the main operators but both are equals.
+**HINT: Another way to find the main operator, if the sentence is properly disambiguated, is to find the first operator that you encounter where there are *no open parentheses*.**
 
 ### KEY CONCEPTS
 * Atomic sentence
