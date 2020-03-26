@@ -298,8 +298,8 @@ Finally, let us translate these into symbolic logic using the following key:
 P: Alice is studying
 <br> Q: Bob is studying
 <br> R: Claire is studying
-<br> (27) (P  Q) & R
-<br> (28) P  (Q & R)
+<br> (27) (P V Q) & R
+<br> (28) P V (Q & R)
 
 Disambiguation is very important in symbolic logic because sentences like (27) and (28) can have different truth values, so *different disambiguations are not logically equivalent*. It is always crucial to check whether your logical formula is ambiguous or not.
 

@@ -142,7 +142,7 @@ The truth table for “only if”:
 
 The truth table for “if and only if”:
 
-| P | Q | P if only if Q
+| P | Q | P if and only if Q
 | - | - | -
 | T | T | T
 | T | F | F
