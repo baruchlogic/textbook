@@ -180,7 +180,7 @@ Let’s walk through this proof. Lines 1 and 2 are simply the premises. Then, we
 1. If you find a conjuction, always consider using Simplification to separate out the individual conjuncts. It might be helpful, and it can never really hurt.
 2. If you see a conditional, try to think about how you can derive the antecedent of the conditional. Usually, you’ll want to use Modus Ponens or Modus Tollens for a conditional, so consider the other premises and see if you can’t convert them into either the antecedent of the conditional or the negation of the consequent.
 3. If you have a statement or a propositional variable that seems to “come out of nowhere” and it’s part of a disjunction, then try to prove one of the disjuncts, and then use Addition to add the new information to it.
-4. Conjunction is perhaps not used as often as some other rules, but always keep in mind that sometimes you may need to create a conjunction - say, you want to do something with the statement (p & q) -> r, then see if it’s possible to establish each of the conjuncts p, and q, independently, so that you can them combine them with Conjunction.
+4. Conjunction is perhaps not used as often as some other rules, but always keep in mind that sometimes you may need to create a conjunction - say, you want to do something with the statement (p & q) -> r, then see if it’s possible to establish each of the conjuncts p, and q, independently, so that you can then combine them with Conjunction.
 
 ## 6. Hypothetical Syllogism
 
