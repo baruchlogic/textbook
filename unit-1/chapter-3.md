@@ -134,7 +134,7 @@ Hopefully, the failure of reasoning in this argument should be clear to you. Whe
 
 ### (14) Appeal to Majority
 
-An argument involves appeal to majority when it tries to argue that something is true on the basis of the fact that most people believe is true. For instance, let’s go back to a time when people believed that the Earth was the center of the universe, and the Sun and stars revolved around the Earth. Then this guy Galileo gets up and says that the Earth actually revolves around the Sun, and someone responds by saying:
+An argument involves appeal to majority when it tries to argue that something is true on the basis of the fact that most people believe that it's true. For instance, let’s go back to a time when people believed that the Earth was the center of the universe, and the Sun and stars revolved around the Earth. Then this guy Galileo gets up and says that the Earth actually revolves around the Sun, and someone responds by saying:
 
 (33) The Sun revolves around the Earth. Come on, everyone knows that!
 
