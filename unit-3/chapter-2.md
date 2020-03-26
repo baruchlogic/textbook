@@ -83,7 +83,7 @@ In this proof, we use Modus Ponens to combine the conditional (line 1), and the 
 p → q
 <br> ~q
 <br> —
-~p
+<br> ~p
 
 Modus Tollens is similar in some respects to Modus Ponens - you can think of it as kind of the inverse of Modus Ponens. It also builds off of the basic logical properties of the conditional. As you’ll recall, the one thing we know about a conditional is that *if* the antecedent is true, *then* the consequent is true as well. So, that means if the consequent is *false*, then the antecedent *can’t* be true either! If you think about it in terms of the truth table, the only way a conditional can be true when its consequent is false, is if the antecedent is false as well (since the conditional is always true when the antecedent is false, no matter what).
 
