@@ -189,7 +189,7 @@ p → q
 <br> ________
 <br> p → r
 
-You can thinking of hypothetical syllogism as “chaining together” two conditional statements. If we have two conditionals in our proof where the *consequent* of the first is the exactly the same as the *antecedent* of the second, then you can infer a new conditional that has the *antecedent* of the first and the *consequent* of the second. In other words, if there is a “common link” between the consequent of one conditional and the antecedent of another, then you can essentially create a “shortcut” that bypasses that common link. For instance, consider:
+You can thinking of hypothetical syllogism as “chaining together” two conditional statements. If we have two conditionals in our proof where the *consequent* of the first is exactly the same as the *antecedent* of the second, then you can infer a new conditional that has the *antecedent* of the first and the *consequent* of the second. In other words, if there is a “common link” between the consequent of one conditional and the antecedent of another, then you can essentially create a “shortcut” that bypasses that common link. For instance, consider:
 
 
 | Proposition | Justification |
@@ -225,7 +225,7 @@ p → r
 <br> ________
 <br> r V s
 
-This rule might seem a little more complicated at first, but it should be rather intuitive once you grasp it. The key is to think of the disjunction p V q as saying, “Either p is the case, or q is the case.” Then p -> r tells us that “If p is the case, then r is the case,” and q -> s tells us that “If q is the case, then is the case.” So, since p V q a disjunction, we don’t know whether p or q is the case. But either way, we know that one or the other must be true, and if it’s p, then r is true, and it’s q, then s is true. So altogether, these three statements imply r V s.
+This rule might seem a little more complicated at first, but it should be rather intuitive once you grasp it. The key is to think of the disjunction p V q as saying, “Either p is the case, or q is the case.” Then p -> r tells us that “If p is the case, then r is the case,” and q -> s tells us that “If q is the case, then s is the case.” So, since p V q is a disjunction, we don’t know whether p or q is the case. But either way, we know that one or the other must be true, and if it’s p, then r is true, and it’s q, then s is true. So altogether, these three statements imply r V s.
 
 Thinking metaphorically again, you can imagine that you’re either going to board the train at station p or station q. If you board at p, then you’ll get off at r. If you board at q, then you’ll get off at s. You don’t know which one you will board at, but you know you will end up at either station r or station s.
 
@@ -251,7 +251,7 @@ Thinking metaphorically again, you can imagine that you’re either going to boa
 p V q
 <br> ~p
 <br> ________
-q
+<br> q
 
 p V q
 <br> ~q

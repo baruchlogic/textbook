@@ -12,7 +12,7 @@ p
 <br> ________
 <br> ~~p
 
-Double negation is one of the simplest inference rules in our toolkit. It simply relies on the fact that two negatives “cancel each other out.” Think about it this way: Suppose p is true. Negation reverses the value of its argument. So, therefore, if p is true, ~p is false. Then, if we apply negation again, we simply reverse the value of ~p, so the value of ~~p is true, just like. Since negation reverses the truth value from true to false, or from false to true, if we apply it twice in a row, then we always end up with the same value as we started with. Therefore, ~~p is equivalent to p. (Similarly, p is always going to have the same truth value as ~~p.)
+Double negation is one of the simplest inference rules in our toolkit. It simply relies on the fact that two negatives “cancel each other out.” Think about it this way: Suppose p is true. Negation reverses the value of its argument. So, therefore, if p is true, ~p is false. Then, if we apply negation again, we simply reverse the value of ~p, so the value of ~~p is true, just like that. Since negation reverses the truth value from true to false, or from false to true, if we apply it twice in a row, then we always end up with the same value as we started with. Therefore, ~~p is equivalent to p. (Similarly, p is always going to have the same truth value as ~~p.)
 
 (One thing to note: In English, when we use double negation, we usually try to imply something more than the non-negated statement. For instance, if someone asks, “Is Bob a good singer?” and someone else replies, “Well, he’s not *not* a good singer,” then they are not exactly saying that Bob *is* a good singer, but they’re not denying it either - perhaps they’re trying to imply that Bob is a borderline case of a good singer. Either way, this is a matter of the pragmatics of natural language. In propositional logic, we simply assume that two negations cancel each other out.)
 
@@ -53,7 +53,7 @@ One important thing to note about the rules we have previously covered (Rules 1-
 | Proposition | Justification |
 | - | - |
 | (1) (p & q) → r		| Premise
-| (2) p → q		| Simplification (1)
+| (2) p → r		| Simplification (1)
 
 In this case, I try to directly apply Simplification to p & q in Line 1 to get p, and so I try to convert (p & q) → r to just p → r. This does not work. Line 1 is a conditional, and the main operator is the →. So, I cannot apply Simplification because the conjunction is only a subformula.
 
