@@ -128,13 +128,13 @@ Great! But, we still haven’t reached our conclusion - s. So, what can we do? W
 Here I’ve applied the conjunction rule (twice, actually) to the statement *q & (r & s)*, first to infer q (line 4), then to infer *r & s* (line 5). So, as you can see, you can apply the rules again and again until you eventually reach your goal. We seem to be a little closer now, but we still only have *r & s*, and we’re trying to prove s. So, we just need to apply the rule one more time to *r & s*:
 
 (1) p & (q & (r & s))
-(2) p
-(3) q & (r & s)
-(4) q
-(5) r & s
-(6) r
-__________________
-(7) s
+<br> (2) p
+<br> (3) q & (r & s)
+<br> (4) q
+<br> (5) r & s
+<br> (6) r
+<br> —
+<br> (7) s
 
 Here, I’ve applied the very same rule, this time to the statement *r & s*, to infer both r and s. Since s is the statement we were trying to prove, we’re done! We’ve shown that you can move from *p & (q & (r & s))* to s by repeatedly applying a very basic rule of inference that we know is definitely valid. Since we’ve shown that you can create a valid chain of reasoning that starts with the premises and ends with the conclusion, and only performs basic inferences that are clearly valid, we’ve proven that you can infer s from *p & (q & (r & s))*, i.e., that argument (12) is valid.
 

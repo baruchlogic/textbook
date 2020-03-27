@@ -25,7 +25,7 @@ INPUT: 1	OUTPUT: 1
 
 So, functions take *inputs* and map them to some *output* (which is typically the result of some computational function on the input).
 
-Some functions are *one-to-one*, meaning that each input maps onto a unique output. The square function is one-to-one, as we can see: there are no two inputs that map onto the same output, and there is no input that maps onto more than out output. However, other functions are *many-to-one*, meaning that multiple inputs can result in the same output. Here is an example of a many-to-one function: *multiplication by 0* [f(x): x * 0]:
+Some functions are *one-to-one*, meaning that each input maps onto a unique output. The square function is one-to-one, as we can see: there are no two inputs that map onto the same output, and there is no input that maps onto more than one output. However, other functions are *many-to-one*, meaning that multiple inputs can result in the same output. Here is an example of a many-to-one function: *multiplication by 0* [f(x): x * 0]:
 
 INPUT 1:	OUTPUT: 0
 INPUT 2: 	OUTPUT: 0
@@ -185,7 +185,7 @@ As you can see, when constructing the truth table for the complex proposition �
 | F | T | F       | |
 | F | F | F       | | |
 
-Now, how do we complete the last column? The key insight is that you can basically ignore the complexity of “(P and Q”) when evaluating the last column. The arguments of the conditional in the last column are “P and Q” and “P” - but we have already computed the values for both of these (columns 1 and 3). So when we compute “If (P and Q) then P,” we can simply refer to the columns that we already filled out (columns 1 and 3) to computer the value for “If (P and Q) then P.”
+Now, how do we complete the last column? The key insight is that you can basically ignore the complexity of “(P and Q”) when evaluating the last column. The arguments of the conditional in the last column are “P and Q” and “P” - but we have already computed the values for both of these (columns 1 and 3). So when we compute “If (P and Q) then P,” we can simply refer to the columns that we already filled out (columns 1 and 3) to compute the value for “If (P and Q) then P.”
 
 | P | Q | P and Q | If (P and Q) then P
 | - | - | ------- | --------------------
