@@ -1,6 +1,7 @@
 {
   "name": "baruchlogic-textbook",
   "version": "1.0.1",
+  "main": "./index.js",
   "description": "Textbook for introductory logic course.",
   "repository": "https://github.com/baruchlogic/textbook.git",
   "author": "Jesse Rappaport <baruchlogic@gmail.com>",
