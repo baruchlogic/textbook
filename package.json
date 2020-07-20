@@ -1,9 +1,9 @@
 {
-  "name": "textbook",
-  "version": "1.0.0",
+  "name": "baruchlogic-textbook",
+  "version": "1.0.1",
   "description": "Textbook for introductory logic course.",
   "repository": "https://github.com/baruchlogic/textbook.git",
-  "author": "Jesse Rappaport",
+  "author": "Jesse Rappaport <baruchlogic@gmail.com>",
   "license": "MIT",
   "private": false
 }
