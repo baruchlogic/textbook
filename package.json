@@ -1,5 +1,5 @@
 {
-  "name": "baruchlogic-textbook-local",
+  "name": "baruchlogic-textbook",
   "version": "1.0.3",
   "main": "./index.js",
   "description": "Textbook for introductory logic course.",
