@@ -1,6 +1,6 @@
 {
   "name": "baruchlogic-textbook-local",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./index.js",
   "description": "Textbook for introductory logic course.",
   "repository": "https://github.com/baruchlogic/textbook.git",
