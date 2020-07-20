@@ -1,5 +1,3 @@
-const introduction = require('./introduction.md');
+import introduction from './introduction.md';
 
-module.exports = {
-  introduction
-};
+export { introduction };
