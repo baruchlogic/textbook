@@ -1,1 +1,5 @@
-export Introduction from './introduction.md';
+const introduction = require('./introduction');
+
+module.exports = {
+  introduction
+};
