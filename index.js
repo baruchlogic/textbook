@@ -1,7 +1,14 @@
-import introduction from './introduction.md';
-
-const d = {
-  introduction
-};
-
-export default d;
+module.exports.introduction = require('./introduction.md').default;
+module.exports.unit_1 = {};
+module.exports.unit_1.chapter_1 = require('./unit-1/chapter-1.md').default;
+module.exports.unit_1.chapter_2 = require('./unit-1/chapter-2.md').default;
+module.exports.unit_1.chapter_3 = require('./unit-1/chapter-3.md').default;
+module.exports.unit_2 = {};
+module.exports.unit_2.chapter_1 = require('./unit-2/chapter-1.md').default;
+module.exports.unit_2.chapter_2 = require('./unit-2/chapter-2.md').default;
+module.exports.unit_2.chapter_3 = require('./unit-2/chapter-3.md').default;
+module.exports.unit_3 = {};
+module.exports.unit_3.chapter_1 = require('./unit-3/chapter-1.md').default;
+module.exports.unit_3.chapter_2 = require('./unit-3/chapter-2.md').default;
+module.exports.unit_3.chapter_3 = require('./unit-3/chapter-3.md').default;
+module.exports.unit_3.chapter_4 = require('./unit-3/chapter-4.md').default;
