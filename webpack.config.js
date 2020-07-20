@@ -10,5 +10,10 @@ module.exports = {
         use: 'raw-loader'
       }
     ]
-  }
+  },
+  output: {
+    filename: 'main.js',
+    path: path.resolve(__dirname, './dist'),
+    publicPath: '/'
+  },
 };

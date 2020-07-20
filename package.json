@@ -1,5 +1,5 @@
 {
-  "name": "baruchlogic-textbook",
+  "name": "baruchlogic-textbook-local",
   "version": "1.0.2",
   "main": "./index.js",
   "description": "Textbook for introductory logic course.",
@@ -12,5 +12,8 @@
   },
   "devDependencies": {
     "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "raw-loader": "^4.0.1"
   }
 }
