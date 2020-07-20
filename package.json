@@ -7,10 +7,10 @@
   "author": "Jesse Rappaport <baruchlogic@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "webpack --mode production",
+  },
   "devDependencies": {
     "webpack": "^4.43.0"
-  },
-  "dependencies": {
-    "raw-loader": "^4.0.1"
   }
 }
