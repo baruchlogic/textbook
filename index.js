@@ -1,5 +1,5 @@
 module.exports.introduction = {
-  text: require('./Introduction.md').default,
+  text: require('./introduction.md').default,
   title: 'Introduction'
 };
 module.exports.unit_1_chapter_1 = {
