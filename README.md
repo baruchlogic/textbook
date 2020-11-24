@@ -2,7 +2,7 @@
 
 This is the textbook for the baruchlogic course in symbolic logic. The text is divided into three units:
 
-# [Introduction](https://github.com/baruchlogic/textbook/blob/master/Introduction.md)
+# [Introduction](https://github.com/baruchlogic/textbook/blob/master/introduction.md)
 
 # Unit 1: Informal Logic & Logical Concepts
 
